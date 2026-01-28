@@ -2,19 +2,12 @@
   "name": "royalapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Antho-3387/RoyalAPI.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Antho-3387/RoyalAPI/issues"
-  },
-  "homepage": "https://github.com/Antho-3387/RoyalAPI#readme"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
